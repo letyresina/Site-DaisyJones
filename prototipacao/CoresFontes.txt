@@ -1,0 +1,18 @@
+Cores gradiente:
+- #9E5E38
+- #8C2D27
+- #53120E
+
+Cores que serão utilizadas no decorrer do site:
+- Cor texto padrão: #FFF;
+- Cor para destaque na header (quando está ativo em uma página em específico): #590202;
+- Cor usada como hover quando passa na navbar: #260101;
+- Cor usada como destaque pelo resto do site (corpo do site): #D9B777;
+- Cor de sombra para a galeria: #D3D3D3;
+- Cor de detalhe do scrolldown (ver se usa para mais algo): #BF2C47;
+
+Cor que se precisar em algum momento, utilizar: #8AA66F.
+
+Fontes: 
+- Fonte Irish Grover (para alguns detalhes no site);
+- Fonte Inika (a fonte padrão)

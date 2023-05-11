@@ -1,0 +1,9 @@
+Páginas do site Daisy Jones 
+- Home: uma página que vai ter um resumo da banda/livro, um botão para conhecer os integrantes da banda e uma navegação breve!;
+- Sobre a banda: conta mais detalhadamente sobre como é a banda ficticia, de onde foi criada (livro), a autora e fala que existe uma série (dentro daqui, colocar uma parte que vai para a parte das músicas que a Amazon criou);
+- Integrantes da banda: aqui, conter um breve resumo sobre cada integrante (tipo wikipedia de cada um) + uma galeriazinha só de fotos daquele integrante em específico! (página de cada um se der tempo, se não der, faz de um só qualquer coisa como exemplo) => [Billy Dunne, Daisy Jones, Eddie Roundtree, Graham Dunne, Karen Kirko, Warren Rhodes];
+- Músicas (album Aurora): cada musica com "incorporar faixa" do próprio spotify para facilitar e deixar bem bonito!;
+- Homenagem a Rita Lee: existe uma teoria que Taylor (autora), que já é conhecida por se inspirar em famosos em suas obras, se inspirou em Rita Lee (o nome de Daisy completo é Daisy Jones Lee + Anos 70 + Ruiva + Daisy significa margarida e Rita em um de seus significados também significa margarida) e a teoria é reforçada quando a autora é amiga de uma brasileira que inclusive foi homenageada nesse livro;
+- (Se der) Uma página sobre a desenvolvedora/apaixonada por esse livro: Leticia Resina (eu hehe).
+
+Ver se consegue o relato breve de pessoas conhecidas que leram Daisy Jones para colocar na Home*
