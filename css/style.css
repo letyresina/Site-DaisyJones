@@ -4,6 +4,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 /* font-family: 'Inika', serif; */
 
+
+/* Variáveis de cor */
+:root{
+    --cor-texto-padrao:#FFF;
+    --cor-destaque-active: #590202;
+    --cor-hover-navbar:#260101;
+    --cor-destaque-site:#D9B777;
+    --cor-destaque-scrolldown:#BF2C47;
+    --cor-sombra:#D3D3D3;
+    --cor-destaque-verde:#8AA66F;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body{
+    background-image: linear-gradient(to right,#9E5E38, #8C2D27, #53120E);
     font-family: 'Inika', serif;
+    color:var(--cor-texto-padrao)
+}
+
+.fa-angle-double-down {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    width: 10px;
+    font-size: 2.5vw;
+    color: #aaa;
+    z-index: 11;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    cursor: pointer;
+    -webkit-animation: glow 4s infinite;
+    animation: glow 4s infinite;
+}
+
+.scroll{
+    background-image: url(../images/scroll-imagem.png);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+}
+
+.scroll-conteudo {
+    padding: 0px 100px 50px 100px;
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 10;
+}
+
+.scroll-conteudo button{
+    font-family: 'Irish Grover', cursive;
+    color:var(--cor-destaque-scrolldown);
+    border: none;
+    background-color: transparent;
+    font-size: 72px;
+    cursor: pointer;
+}
+
+.scroll-conteudo h1{
+    color:var(--cor-destaque-scrolldown);
+    font-size: 72px;
+}
+
+.scroll-conteudo h2{
+    font-family: 'Irish Grover', cursive;
+    font-size: 38px;
+}
+
+.musicas-scroll{
+    font-size: 18px;
+}
+
+.gradient-overlay {
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(#000000 20%, #020202);
+    background: linear-gradient(#070202 20%, #0c0808);
+    opacity: 0.6;
+    filter: alpha(opacity=40);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
