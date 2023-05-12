@@ -1,0 +1,10 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+/* font-family: 'Irish Grover', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+/* font-family: 'Inika', serif; */
+
+body{
+    font-family: 'Inika', serif;
+}
+
