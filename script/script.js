@@ -16,5 +16,5 @@ function typeWrite(elemento){
   });
 }
 
-const musicas = document.querySelector('.musicas-scroll');
-typeWrite(musicas, "<br>");
+const titulo = document.querySelector('.tituloScroll');
+typeWrite(titulo);

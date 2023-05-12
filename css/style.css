@@ -95,7 +95,9 @@ body{
     font-size: 18px;
 }
 
-.musicas-scroll:after{
+
+    /* Essa parte é para o que vai ficar depois da animação */
+.tituloScroll:after{
     content: '|';
     margin-left: 5px;
     opacity: 1;
@@ -109,7 +111,8 @@ body{
     50%{
         opacity: 0;
     }
-}
+} 
+
 
 .gradient-overlay {
     height: 100%;
