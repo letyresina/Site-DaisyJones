@@ -95,7 +95,6 @@ body{
     font-size: 18px;
 }
 
-
     /* Essa parte é para o que vai ficar depois da animação */
 .tituloScroll:after{
     content: '|';
