@@ -2,7 +2,7 @@ const paraScrollar = document.getElementById('paraScrollar');
 const secaoAlvo = document.getElementById('conteudo-home');
 
 paraScrollar.addEventListener('click', function() {
-    secaoAlvo.scrollIntoView({ behavior: 'smooth' });
+    secaoAlvo.scrollIntoView({ behavior: 'smooth', duration:1.8});
 });
 
 function typeWrite(elemento){
