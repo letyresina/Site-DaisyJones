@@ -12,3 +12,5 @@ NÃO ESQUECER:
 
 Na página de Músicas, incorporar o album compactado de Aurora para colocar no começo, colocar um resumo do album e depois colocar cada faixa individualmente!!
 Ah, e para mudar o formato do iframe, basta colocar dentro de uma div e ajustar o width dela! (No teste coloquei 40%)
+
+Protótipo no Figma!
