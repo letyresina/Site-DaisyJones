@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Músicas</title>
+    <title>Mande a sua resenha</title>
     <link rel="styleSheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -31,9 +31,21 @@
                 <p>Assistiu a adaptação? Leu o livro? Manda sua resenha para gente</p>
             </div>
             <div id="formulario">
-                <form>
-                    
-                </form>
+                <center><form name="formulario-resenha">
+                    <h3>Resenha</h3> <br>
+                    <label for="name">Nome: </label> <input type="text" placeholder="Insira seu nome" id="nomeUsuario" required> <br><br>
+                    <label for="email">Email: </label> <input type="email" placeholder="Insira seu email" id="emailUsuario" required> <br><br>
+                    <label for="saberLivroAdaptacao">Você leu ou assistiu a adaptação?</label> <br>
+                    <select id="adaptacaoLivro" required>
+                        <option value="" select>Selecione uma opção</option>
+                        <option value="1">Li o livro</option>
+                        <option value="2">Assisti a adaptação</option>
+                        <option value="3">Li e assisti!</option>
+                    </select><br> <br>
+                    <label for="resenhaEscrever">Deixe sua resenha aqui!</label><br>
+                    <input type="text" placeholder="Escreva sua resenha!" id="resenha" required><br> <br>
+                    <input type="submit" value="Enviar" id="enviarResenha" onclick="enviaResenha()">
+                </form></center>
             </div>
         </section>
 

@@ -68,3 +68,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
   });
   
+function enviaResenha(){
+
+  let nomeUsuario = document.getElementById('nomeUsuario').value;
+  let emailUsuario = document.getElementById('emailUsuario').value;
+  let adaptacaoLivro = document.getElementById('adaptacaoLivro').value;
+  let resenha = document.getElementById('resenha').value
+
+  if(nomeUsuario =="" || emailUsuario =="" || adaptacaoLivro=="" || resenha==""){
+    alert('Preencha todos campos antes de prosseguir')
+  }else{
+    alert('Obrigada por enviar sua resenha!')
+  }
+}

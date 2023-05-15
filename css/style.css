@@ -372,3 +372,66 @@ h1, h2, h3{
 }
 
 
+/* Parte do formulário */
+
+#formulario{
+    padding:40px;
+}
+
+form{
+    width:980px;
+	height:auto;
+    padding:40px;
+    border-radius: 40px;
+    background-color: var(--cor-destaque-verde);
+}
+
+form h3{
+    font-size: 40px;
+}
+
+form label{
+    font-family: 'Inika', serif;
+    font-size: 26px;
+}
+
+form input{
+    font-family: 'Inika', serif;
+    width:500px;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+}
+
+form #enviarResenha{
+    background-color: var(--cor-destaque-scrolldown);
+    color:var(--cor-texto-padrao);
+    font-size: 18px;
+    width:150px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+form #enviarResenha:hover{
+    color:var(--cor-destaque-site);
+}
+
+form select{
+    font-family: 'Inika', serif;
+    width:500px;
+    height:40px;
+    border: none;
+    text-align: center;
+    color:gray;
+    border-radius: 10px;
+}
+
+form #resenha{
+    height:180px;
+}
+
+form #resenha::placeholder{
+    text-align: center;
+    padding:10px;
+}
