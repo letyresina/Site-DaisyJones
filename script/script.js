@@ -1,9 +1,12 @@
+// Scroll
 const paraScrollar = document.getElementById('paraScrollar');
 const secaoAlvo = document.getElementById('conteudo-home');
 
 paraScrollar.addEventListener('click', function() {
     secaoAlvo.scrollIntoView({ behavior: 'smooth', duration:1.8});
 });
+
+// Animação de máquina de escrever
 
 function typeWrite(elemento){
     const textoArray = elemento.innerHTML.split('');
@@ -18,3 +21,8 @@ function typeWrite(elemento){
 
 const titulo = document.querySelector('.tituloScroll');
 typeWrite(titulo);
+
+//Função para abrir página de integrantes
+function abrirIntegrantes(){
+    window.open("integrantes.html")
+}

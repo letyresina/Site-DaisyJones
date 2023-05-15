@@ -272,6 +272,28 @@ h1, h2, h3{
     text-align: justify;
 }
 
+#resenhas{
+    padding-top:30px;
+}
+
+#resenhas #textoParaForms{
+    padding-top:10px;
+}
+
+#resenhas #textoParaForms a{
+    text-decoration: none;
+    color:var(--cor-destaque-site);
+}
+
+#textoInicial p{
+    font-size: 22px;
+}
+
+#paraIntegrantes button{
+    background-image:url("images/botaoIntegrantes.jpg");
+    width: auto;
+}
+
 
 
 
