@@ -273,11 +273,12 @@ h1, h2, h3{
 }
 
 #resenhas{
-    padding-top:30px;
+    padding-top:130px;
 }
 
 #resenhas #textoParaForms{
     padding-top:10px;
+    font-size: 22px;
 }
 
 #resenhas #textoParaForms a{
@@ -317,6 +318,57 @@ h1, h2, h3{
     transform: scale(1.1);
 }
 
+/* Estilo do contêiner do carrossel */
+.carousel-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+  /* Estilo para os slides */
+.carousel-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
 
+.carousel-slide h3{
+    font-size:32px;
+}
+
+.carousel-slide p{
+    font-size:20px;
+    padding-top: 12px;
+}
+  
+  /* Estilo do slide ativo */
+  .carousel-slide.active {
+    opacity: 1;
+}
+  
+  /* Estilo do controle de navegação */
+  .carousel-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+  
+  .carousel-control {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    margin: 0 15px;
+    cursor: pointer;
+}
 
 
