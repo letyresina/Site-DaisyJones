@@ -22,7 +22,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right,#9E5E38, #8C2D27, #53120E);
+    background-image: linear-gradient(to left,#9E5E38, #8C2D27, #53120E);
     font-family: 'Inika', serif;
     color:var(--cor-texto-padrao)
 }
