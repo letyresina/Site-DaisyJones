@@ -125,15 +125,6 @@ body{
     left: 0;
 }
 
-/* Box principal da página */
-.content{
-    margin:auto;
-    padding:20px;
-    padding-top:18px;
-    width: auto;
-    height: auto;
-}
-
 /* tanto header quanto footer pega 100% da página e a cor do texto padrão é branco */
 
 header, footer{
@@ -199,12 +190,12 @@ footer .container-footer #copyright-coluna{
 }
 
 footer .container-footer #redes-sociais{
-    padding-top: 90px;
+    padding-top: 60px;
     float:left;
 }
 
 footer .container-footer #redes-sociais img{
-    margin-right: 5px;
+    margin-right: 8px;
     transition: 500ms linear;
 }
 
@@ -222,7 +213,7 @@ footer .container-footer #nav-bar .nav-list{
 }
 
 footer .container-footer #nav-bar nav ul li{
-    margin-bottom:5px;
+    margin-bottom:2px;
 }
 
 footer .container-footer #nav-bar .nav-list a{
@@ -233,6 +224,16 @@ footer .container-footer #nav-bar .nav-list a{
 footer .container-footer #nav-bar .nav-list a:hover{
     text-decoration: none;
     color:var(--cor-hover-navbar);
+}
+
+/* Box principal da página */
+.content{
+    margin:auto;
+    padding:20px;
+    padding-top:18px;
+    padding-bottom:10px;
+    width: auto;
+    height: auto;
 }
 
 
