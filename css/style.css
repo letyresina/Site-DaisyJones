@@ -8,8 +8,7 @@
 /* Variáveis de cor */
 :root{
     --cor-texto-padrao:#FFF;
-    --cor-destaque-active: #590202;
-    --cor-hover-navbar:#260101;
+    --cor-hover-navbar:#3f0101;
     --cor-destaque-site:#D9B777;
     --cor-destaque-scrolldown:#BF2C47;
     --cor-sombra:#D3D3D3;
@@ -175,7 +174,7 @@ header .container-header .nav-list{
 }
 
 header .container-header .nav-list .item .active{
-    color:var(--cor-destaque-active);
+    color:var(--cor-destaque-verde);
 }
 
 header .container-header .nav-list .item a{
