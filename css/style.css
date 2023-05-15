@@ -28,6 +28,7 @@ body{
     color:var(--cor-texto-padrao)
 }
 
+/* Parte do Scrolldown da home */
 .fa-angle-double-down {
     position: absolute;
     left: 0;
@@ -125,6 +126,7 @@ body{
     left: 0;
 }
 
+/* Box principal da página */
 .content{
     margin:auto;
     padding:20px;
@@ -133,10 +135,63 @@ body{
     height: auto;
 }
 
+/* tanto header quanto footer pega 100% da página e a cor do texto padrão é branco */
+
 header, footer{
     width: 100%;
+    color:var(--cor-texto-padrao);
 }
+
+/* Construção da header */
 
 header{
     padding:2px;
+}
+
+header .container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container-header img{
+    transition: 500ms linear;
+}
+
+header .container-header img:hover{
+    transform: scale(1.1);
+}
+
+header .container-header a{
+    text-decoration: none;
+}
+
+header .container-header .nav-list{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width: 620px;
+    height: 20;
+}
+
+header .container-header .nav-list .item .active{
+    color:var(--cor-destaque-active);
+}
+
+header .container-header .nav-list .item a{
+    text-decoration: none;
+    color:var(--cor-texto-padrao);
+}
+
+header .container-header .nav-list .item a:hover{
+    color:var(--cor-hover-navbar);
+}
+
+/* construção do footer */
+
+footer .container-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top:auto;
+    padding-top: 4px;
 }
