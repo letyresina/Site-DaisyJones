@@ -289,9 +289,32 @@ h1, h2, h3{
     font-size: 22px;
 }
 
+#paraIntegrantes{
+    padding-top:50px;
+}
+
 #paraIntegrantes button{
-    background-image:url("images/botaoIntegrantes.jpg");
-    width: auto;
+    width: 100%;
+    height: 250px;
+    border: none;
+    border-radius: 90px;
+    background-size: cover;
+    cursor:pointer;
+}
+
+#paraIntegrantes button p{
+    font-family: 'Irish Grover', cursive;
+    color:var(--cor-texto-padrao);
+    font-size: 32px;
+    float: right;
+    padding:8px;
+    padding-top: 160px;
+    padding-right: 40px;
+    transition: 500ms linear;
+}
+
+#paraIntegrantes button p:hover{
+    transform: scale(1.1);
 }
 
 
