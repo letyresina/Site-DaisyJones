@@ -182,6 +182,7 @@ header .container-header .nav-list .item a:hover{
 footer .container-footer{
     margin-top:auto;
     padding-top: 20px;
+    padding:20px;
 }
 
 footer .container-footer #copyright-coluna{
