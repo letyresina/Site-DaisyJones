@@ -231,11 +231,47 @@ footer .container-footer #nav-bar .nav-list a:hover{
 .content{
     margin:auto;
     padding:20px;
-    padding-top:18px;
-    padding-bottom:10px;
+    padding-top:6px;
+    padding-bottom:18px;
     width: auto;
     height: auto;
 }
+
+/* Definindo parte das fontes certinho */
+
+h1, h2, h3{
+    font-family: 'Irish Grover', cursive;
+}
+
+/* Construção da páginas em si (algumas se repetem entre os arquivos) */
+
+#tituloInicial{
+    width:400px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#conteudoHome{
+    display: flex;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+
+#conteudoHome img{
+    border-radius:78px;
+    margin-right:25px;
+    transition: 500ms linear;
+}
+
+#conteudoHome img:hover{
+    transform: scale(1.1);
+}
+
+#conteudoHome p{
+    font-size: 20px;
+    text-align: justify;
+}
+
 
 
 
