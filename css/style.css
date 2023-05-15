@@ -129,7 +129,7 @@ body{
 .content{
     margin:auto;
     padding:20px;
-    padding-top:40px;
+    padding-top:18px;
     width: auto;
     height: auto;
 }
@@ -189,8 +189,51 @@ header .container-header .nav-list .item a:hover{
 /* construção do footer */
 
 footer .container-footer{
-    display: flex;
-    justify-content: space-between;
     margin-top:auto;
-    padding-top: 4px;
+    padding-top: 20px;
 }
+
+footer .container-footer #copyright-coluna{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer .container-footer #redes-sociais{
+    padding-top: 90px;
+    float:left;
+}
+
+footer .container-footer #redes-sociais img{
+    margin-right: 5px;
+    transition: 500ms linear;
+}
+
+footer .container-footer #redes-sociais img:hover{
+    transform: scale(1.1);
+}
+
+footer .container-footer #nav-bar{
+    float:right;
+}
+
+footer .container-footer #nav-bar .nav-list{
+    list-style:none;
+    margin-bottom:10px;
+}
+
+footer .container-footer #nav-bar nav ul li{
+    margin-bottom:5px;
+}
+
+footer .container-footer #nav-bar .nav-list a{
+    text-decoration: none;
+    color:var(--cor-texto-padrao);
+}
+
+footer .container-footer #nav-bar .nav-list a:hover{
+    text-decoration: none;
+    color:var(--cor-hover-navbar);
+}
+
+
+

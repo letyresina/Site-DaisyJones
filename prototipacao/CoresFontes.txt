@@ -5,7 +5,7 @@ Cores gradiente:
 
 Cores que serão utilizadas no decorrer do site:
 - Cor texto padrão: #FFF;
-- Cor para destaque na header (quando está ativo em uma página em específico): #590202;
+- Cor para destaque na header (quando está ativo em uma página em específico): #590202; => mudado
 - Cor usada como hover quando passa na navbar: #260101;
 - Cor usada como destaque pelo resto do site (corpo do site): #D9B777;
 - Cor de sombra para a galeria: #D3D3D3;
