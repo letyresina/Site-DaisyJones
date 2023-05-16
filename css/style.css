@@ -607,3 +607,25 @@ form #resenha::placeholder{
     padding-top:60px;
     width:500px;
 }
+
+/* Vai valer para o site de cada integrante */
+#tituloPrincipal{
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    padding-top:2px;
+}
+
+#fotoPrincipal{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#fotoPrincipal img{
+    border-radius: 70px;
+    transition: 500ms linear;
+}
+
+#fotoPrincipal img:hover{
+    transform: scale(1.1);
+}
