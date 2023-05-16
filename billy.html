@@ -34,6 +34,85 @@
             <div id="fotoPrincipal">
                 <img src="images/BillyDunnePoster.jpg" width="360px">
             </div>            
+
+            <center><div id="texto">
+                <p>
+                    Billy Dunne é um talentoso músico e compositor nascido nos Estados Unidos. Ele ganhou fama
+                    como líder de uma banda de rock dos anos 70 chamada "The Six". Billy é conhecido por sua 
+                    voz poderosa e suas letras profundas, que capturam a essência dos sentimentos e experiências
+                    da geração da contracultura. <br>
+
+                    Billy é descrito como um músico talentoso e carismático, mas também como um homem 
+                    problemático e complexo. Ele luta contra o vício em drogas e álcool, além de ter 
+                    dificuldades em lidar com seus relacionamentos pessoais e profissionais. <br>
+
+                    Casado com Camila Dunne, após o nascimento de sua primeira filha Julia, ele ficou internado
+                    para lutar melhor com seus vicios em drogas. E depois da sua saída, encarava seus demônios 
+                    internos, não participando das festas depois de cada apresentação da banda. <br>
+
+                    Sua jornada é marcada por altos e baixos, incluindo momentos de grande sucesso e outros de
+                    profunda autodestruição. No auge da popularidade da banda, Billy enfrentou uma crise 
+                    pessoal que o levou a se afastar do estrelato e se isolar da indústria da música. Durante 
+                    esse período de reclusão, ele embarcou em uma jornada de autodescoberta e recuperação, 
+                    buscando curar suas feridas emocionais e reconectar-se com sua paixão pela música. <br>
+
+                    Billy eventualmente ressurgiu como um artista solo, e sua música refletia sua jornada de 
+                    redenção e renascimento. Suas letras se tornaram mais introspectivas e espirituais, 
+                    transmitindo uma profunda sabedoria e uma visão de esperança para aqueles que lutam contra
+                    seus próprios demônios internos. <br>
+
+                    Billy Dunne é reverenciado como uma figura icônica na história do rock, não apenas por seu
+                    talento musical, mas também por sua coragem em enfrentar seus demônios pessoais e encontrar
+                    uma nova vida cheia de significado e propósito. Sua história inspira muitos artistas e fãs, 
+                    lembrando-nos da resiliência humana e da capacidade de transformação pessoal através da arte.
+                </p>
+            </div></center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div> 
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/billydunne01.jpg',
+                        'images/billydunne02.jpg',
+                        'images/billydunne03.jpg',
+                        'images/billydunne04.jpg',
+                        'images/billydunne05.jpg',
+                        'images/billydunne06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Mais integrantes...</h2><br>
+            </div> 
+            
+            <div id="maisIntegrantes">
+                <a href="daisy.html"><img src="images/DaisyJonesPoster.jpg" width="300px"></a>
+                <a href="graham.html"><img src="images/GrahamDunnePoster.jpg" width="300px"></a>
+            </div>
+
         </section>
 
         <footer>
