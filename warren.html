@@ -33,7 +33,74 @@
 
             <div id="fotoPrincipal">
                 <img src="images/WarrenRhodesPoster.jpg" width="360px">
-            </div>            
+            </div>     
+            
+            <div id="textoInicial">
+                <br>
+                <h2>Conheça mais sobre ele!</h2>
+            </div> 
+
+            <center><div id="texto">
+                <p>
+                    Warren Rhodes é um dos membros da banda The Six em "Daisy Jones & The Six". Ele é o 
+                    baterista da banda, mas também toca guitarra e canta, mostrando sua habilidade como 
+                    músico versátil. <br>
+
+                    Warren é um personagem enigmático e misterioso, com um passado difícil que o levou a 
+                    enfrentar seus próprios demônios pessoais. Ele é conhecido por ser silencioso e 
+                    introvertido, mas também é um músico talentoso e respeitado pelos seus colegas de banda. <br>
+
+                    Warren também tem uma conexão especial com Daisy Jones, que ele admira como artista e 
+                    com quem tem um relacionamento platônico. Ele é uma figura importante na banda, ajudando 
+                    a mantê-los juntos e lidando com as tensões e conflitos que surgem.
+                </p>
+            </div></center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div>
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/warrenrhodes01.jpg',
+                        'images/warrenrhodes02.jpg',
+                        'images/warrenrhodes03.jpg',
+                        'images/warrenrhodes04.jpg',
+                        'images/warrenrhodes05.jpg',
+                        'images/warrenrhodes06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Mais integrantes...</h2><br>
+            </div> 
+            
+            <div id="maisIntegrantes">
+                <a href="daisy.html"><img src="images/DaisyJonesPoster.jpg" width="300px"></a>
+                <a href="eddie.html"><img src="images/EddieRoundtreePoster.jpg" width="300px"></a>
+            </div>
+
         </section>
 
         <footer>
