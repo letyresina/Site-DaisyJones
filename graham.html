@@ -33,7 +33,77 @@
 
             <div id="fotoPrincipal">
                 <img src="images/GrahamDunnePoster.jpg" width="360px">
-            </div>            
+            </div>   
+            
+            <div id="textoInicial">
+                <br>
+                <h2>Conheça mais sobre ele!</h2>
+            </div> 
+
+            <center><div id="texto">
+                <p>
+                    Graham Dunne é um guitarrista talentoso e apaixonado pela música. Ele é um dos membros 
+                    fundadores da banda The Six, irmão de Billy Dunne e é visto como o coração da banda pelos 
+                    seus colegas. <br>
+
+                    Graham Dunne se apaixona por Karen Sirko, a tecladista da banda The Six, uma mulher 
+                    inteligente, enigmática e talentosa, que se torna uma presença importante na vida de 
+                    Graham. Eles têm uma conexão única, mas enfrentam seus próprios obstáculos em seu 
+                    relacionamento, incluindo problemas com drogas e diferenças pessoais. Graham encontra 
+                    apoio em Karen quando tenta lidar com suas lutas internas, e juntos eles trabalham para 
+                    manter a banda unida e alcançar o sucesso. <br>
+
+                    Com a separação da banda, Graham encontrou o amor de sua vida depois de um conflito com 
+                    Karen, onde constitui sua família. Diferente da maioria dos membros do grupo, ele decidiu
+                    não continuar no mundo musical.
+                </p>
+            </div></center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div>
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/grahamdunne01.jpg',
+                        'images/grahamdunne02.jpg',
+                        'images/grahamdunne03.jpg',
+                        'images/grahamdunne04.jpg',
+                        'images/grahamdunne05.jpg',
+                        'images/grahamdunne06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Mais integrantes...</h2><br>
+            </div> 
+            
+            <div id="maisIntegrantes">
+                <a href="billy.html"><img src="images/BillyDunnePoster.jpg" width="300px"></a>
+                <a href="karen.html"><img src="images/KarenSirkoPoster.jpg" width="300px"></a>
+            </div>
+
         </section>
 
         <footer>
