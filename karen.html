@@ -33,7 +33,78 @@
 
             <div id="fotoPrincipal">
                 <img src="images/KarenSirkoPoster.jpg" width="360px">
-            </div>            
+            </div>     
+            
+            <div id="textoInicial">
+                <br>
+                <h2>Conheça mais sobre ela!</h2>
+            </div> 
+
+            <center><div id="texto">
+                <p>
+                    Karen Sirko é a tecladista da banda The Six em "Daisy Jones & The Six". Ela se juntou à 
+                    banda quando eles ainda estavam começando e rapidamente se tornou uma parte vital do som 
+                    da banda. <br>
+
+                    É descrita como uma mulher forte e determinada, que trabalha arduamente para moldar a 
+                    banda em algo mais comercialmente viável, mas também se preocupa profundamente com a 
+                    integridade artística da música que estão criando. Ela tem uma personalidade forte e 
+                    pode ser bastante franca em suas opiniões, o que muitas vezes a coloca em conflito com os 
+                    membros da banda. <br>
+
+                    Karen é descrita como uma musicista talentosa e uma presença calma e confiante no palco. 
+                    Ela também é uma das poucas mulheres na indústria musical na época em que a história se 
+                    passa e enfrenta discriminação de gênero e falta de oportunidades por causa disso. A 
+                    personagem de Karen Sirko é uma parte importante da trama do livro e contribui para a 
+                    história de forma significativa. <br>
+                </p>
+            </div></center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div>
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/karensirko01.jpg',
+                        'images/karensirko02.jpg',
+                        'images/karensirko03.jpg',
+                        'images/karensirko04.jpg',
+                        'images/karensirko05.jpg',
+                        'images/karensirko06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Mais integrantes...</h2><br>
+            </div> 
+            
+            <div id="maisIntegrantes">
+                <a href="daisy.html"><img src="images/DaisyJonesPoster.jpg" width="300px"></a>
+                <a href="graham.html"><img src="images/GrahamDunnePoster.jpg" width="300px"></a>
+            </div>
+            
         </section>
 
         <footer>
