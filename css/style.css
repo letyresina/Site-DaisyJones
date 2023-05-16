@@ -508,7 +508,7 @@ form #resenha::placeholder{
     text-align: justify;
     width: 660px;
     line-height: 1.5;
-    padding:20px
+    padding:20px;
 }
 
 #tituloInicialAlbum{
@@ -606,6 +606,49 @@ form #resenha::placeholder{
     justify-content: center;
     padding-top:60px;
     width:500px;
+}
+
+#ritaLee{
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+
+#ritaLee img{
+    border-radius: 70px;
+    margin:10px;
+    transition: 500ms linear;
+}
+
+#ritaLee img:hover{
+    transform: scale(1.1);
+}
+
+#textoRita{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#textoRita img{
+    border-radius: 70px;
+    margin:10px;
+    transition: 500ms linear;
+}
+
+#textoRita img:hover{
+    transform: scale(1.1);
+}
+
+#textoRita p{
+    font-size: 22px;
+    text-align: justify;
+    width: 660px;
+    line-height: 1.5;
+    padding:20px;
 }
 
 /* Vai valer para o site de cada integrante + desenvolvedora */
