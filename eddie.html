@@ -33,7 +33,76 @@
 
             <div id="fotoPrincipal">
                 <img src="images/EddieRoundtreePoster.jpg" width="360px">
-            </div>             
+            </div>     
+            
+            <div id="textoInicial">
+                <br>
+                <h2>Conheça mais sobre ele!</h2>
+            </div> 
+            
+            <center><div id="texto">
+                <p>
+                    Um aviso interessante, é que na adaptação, Eddie é a junção de Eddie e Pete Loving, 
+                    respectivamente guitarrista e baixista da banda, que eram irmãos. Por isso, para apresentar
+                    os membros, The Six virou 5. A personalidade de Eddie uniu a personalidade de ambos. O que 
+                    permaneceu, foi o conflito de Billy e Eddie o tempo todo no livro e na adaptação <br>
+
+                    Eddie Roundtree é um dos membros fundadores da banda The Six em "Daisy Jones & The Six". 
+                    Ele é um baixista talentoso e dedicado, com uma paixão pela música e pelo estilo de vida 
+                    rock 'n' roll. Eddie é descrito como um homem gentil, amável e confiável, e é 
+                    frequentemente visto como o irmão mais velho da banda pelos seus colegas. <br>
+
+                    Ao longo da história, Eddie é uma figura importante na vida dos membros da banda, 
+                    particularmente de Daisy Jones, com quem ele tem uma relação próxima e complexa. Ele é uma
+                    presença constante nos bastidores da banda, ajudando a mantê-los juntos e funcionando 
+                    apesar das tensões e conflitos que surgem.
+                </p>
+            </div></center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div>
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/eddieroundtree01.jpg',
+                        'images/eddieroundtree02.jpg',
+                        'images/eddieroundtree03.jpg',
+                        'images/eddieroundtree04.jpg',
+                        'images/eddieroundtree05.jpg',
+                        'images/eddieroundtree06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Mais integrantes...</h2><br>
+            </div> 
+            
+            <div id="maisIntegrantes">
+                <a href="daisy.html"><img src="images/DaisyJonesPoster.jpg" width="300px"></a>
+                <a href="warren.html"><img src="images/WarrenRhodesPoster.jpg" width="300px"></a>
+            </div>
         </section>
 
         <footer>
