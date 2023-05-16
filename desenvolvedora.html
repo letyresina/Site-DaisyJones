@@ -35,7 +35,89 @@
             <div id="fotoPrincipal">
                 <img src="images/desenvolvedoraPoster.jpg" width="360px">
             </div>
-            
+
+            <div id="textoInicial">
+                <br>
+                <h2>Conheça mais sobre ela!</h2>
+            </div> 
+
+            <center><div id="texto">
+                <p>
+                    Leticia Cristina Gandarez Resina, nascida em 04 de agosto de 2004 sob o
+                    signo de leão com Vênus em Gêmeos, a jovem hoje tem seus 18 anos de idade (prestes a 
+                    completar 19 anos neste mesmo ano de 2023). Leticia é uma entusiasta da programação, 
+                    cibersegurança (sendo grata à série Mr. Robot), artes em geral e leitura. Entre seus 
+                    autores favoritos, destacam-se Oscar Wilde, Edgar Allan Poe, Clarice Lispector e Machado de
+                    Assis. Além disso, a jovem é autora de poemas e possui dois contos postados na plataforma 
+                    Wattpad, com o desejo de escrever um livro algum dia. <br>
+
+                    Leticia possui formação em Ensino Médio integrado com Desenvolvimento de Sistemas na ETEC 
+                    Professor Basilides de Godoy, sendo honrada com a menção de melhor aluna do curso. 
+                    Atualmente, a jovem encontra-se cursando Engenharia de Software na FIAP, buscando aprimorar
+                    ainda mais seus conhecimentos e conquistas. A previsão de conclusão da graduação é para 
+                    dezembro de 2026. <br>
+
+                    A jovem é torcedora fiel do Corinthians e da Red Canids, sendo o primeiro um amor passado 
+                    de seu pai e irmão, enquanto o segundo foi adquirido com a prática de jogos eletrônicos, 
+                    tais como League of Legends, Valorant e CSGO. Ainda que não seja tão familiarizada com 
+                    jogos FPS, Leticia os aprecia. <br>
+
+                    Além de programadora, Leticia é uma entusiasta dos jogos eletrônicos, jogando com seus 
+                    amigos League of Legends, OSU, Valorant, Among Us e The Matriarch, bem como jogos solos, 
+                    como Life is Strange e The Wolf Among Us. <br>
+
+                    Suas bandas favoritas incluem os Beatles, mas ela aprecia uma grande variedade de estilos 
+                    musicais, tais como Lana Del Rey, Taylor Swift, Sidney Magal, Raul Seixas, Tim Maia, 
+                    entre outros. Dança é outra de suas paixões, juntamente com sua cachorrinha, uma Golden 
+                    Retriever chamada Kiara Lennon Resina, que, apesar de ocasionalmente brigarem, a jovem ama 
+                    profundamente.
+                </p>
+            </div> </center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div> 
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/desenvolvedora01.jpg',
+                        'images/desenvolvedora02.jpg',
+                        'images/desenvolvedora03.jpg',
+                        'images/desenvolvedora04.jpg',
+                        'images/desenvolvedora05.jpg',
+                        'images/desenvolvedora06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Para saber mais</h2><br>
+            </div> 
+
+            <div id="redes-sociaisDesenvolvedora">
+                <a href="https://github.com/letyresina" target="_blank"><img src="images/github.jpg" width="80px"></a>
+                <a href="https://www.instagram.com/letyresinaa/" target="_blank"><img src="images/instagram.png" height="70px"></a>
+            </div>
         </section>
 
         <footer>
