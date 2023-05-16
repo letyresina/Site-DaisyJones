@@ -35,7 +35,89 @@
             <div id="fotoPrincipal">
                 <img src="images/DaisyJonesPoster.jpg" width="360px">
             </div> 
+
+            <div id="textoInicial">
+                <br>
+                <h2>Conheça mais sobre ela!</h2>
+            </div> 
+
+            <center><div id="texto">
+                <p>
+                    Daisy Jones é uma personagem icônica e envolvente do romance "Daisy Jones & The Six". 
+                    Ela é retratada como uma jovem e talentosa cantora e compositora americana, nascida em Los 
+                    Angeles no final dos anos 1940. <br>
+
+                    Desde tenra idade, Daisy mostrou uma paixão inabalável pela música. Com seu estilo único 
+                    e voz poderosa, ela logo se destacou no cenário musical local, chamando a atenção de 
+                    produtores e agentes. Sua beleza cativante, com cabelos ruivos deslumbrantes e olhos 
+                    expressivos, tornou-a ainda mais irresistível aos olhos do público e da indústria. <br>
+
+                    Daisy se destacava não apenas por sua aparência e voz, mas também por sua personalidade 
+                    livre e desinibida. Ela personificava o espírito dos anos 1970, com seu amor pela liberdade,
+                    experimentação e busca por autenticidade. Sua energia magnética atraía todos ao seu redor, 
+                    e ela não tinha medo de quebrar as convenções sociais para seguir sua própria visão 
+                    artística. <br>
+
+                    Ao longo do livro, acompanhamos a ascensão meteórica de Daisy Jones, sua colaboração com 
+                    a banda The Six e os desafios que ela enfrenta ao lidar com o sucesso, relacionamentos 
+                    turbulentos e os demônios internos que a assombram. Ela se torna uma figura controversa e 
+                    admirada, conhecida por suas letras emotivas e performances arrebatadoras. <br>
+
+                    Daisy Jones é retratada como uma mulher complexa, com seus altos e baixos, lutas e 
+                    conquistas. Sua jornada na indústria musical é uma montanha-russa de emoções, repleta de 
+                    momentos de triunfo e autodescoberta, mas também de dor e autoquestionamento. <br>
+
+                    No final, Daisy Jones se torna um ícone atemporal da música, deixando um legado duradouro
+                    em meio à efervescência cultural da década de 1970. Sua história é um lembrete poderoso do 
+                    poder da arte e da capacidade da música de nos conectar em um nível profundo.
+                </p>
+            </div></center>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div> 
+
+            <div id="galeria">
+                <center>
+                    <img id="images">
+                </center>
+
+                <script>
+
+                    var imagens=[
+                        'images/daisyjones01.jpg',
+                        'images/daisyjones02.jpg',
+                        'images/daisyjones03.jpg',
+                        'images/daisyjones04.jpg',
+                        'images/daisyjones05.jpg',
+                        'images/daisyjones06.jpg'
+                    ]
+
+                    var Index = 0;
+                    var time =  2000;
+
+                    function slideShow(){
+                        document.getElementById('images').src = imagens[Index];
+                        Index++;
+                        if(Index == imagens.length){Index = 0;}
+                        setTimeout("slideShow()", time);
+                    }
+                    slideShow();
+
+                </script>
+            </div>
+
+            <div id="textoInicial">
+                <br>
+                <h2>Uma breve galeria...</h2><br>
+            </div> 
             
+            <div id="maisIntegrantes">
+                <a href="billy.html"><img src="images/BillyDunnePoster.jpg" width="300px"></a>
+                <a href="karen.html"><img src="images/KarenSirkoPoster.jpg" width="300px"></a>
+            </div>
+
         </section>
 
         <footer>

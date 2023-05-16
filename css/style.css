@@ -685,6 +685,21 @@ form #resenha::placeholder{
     padding:20px;
 }
 
+#maisIntegrantes{
+    display: flex;
+    justify-content: center;
+}
+
+#maisIntegrantes img{
+    border-radius: 70px;
+    margin-right: 20px;
+    transition: 500ms linear;
+}
+
+#maisIntegrantes img:hover{
+    transform: scale(1.1);
+}
+
 #redes-sociaisDesenvolvedora{
     display: flex;
     justify-content: center;
