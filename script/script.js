@@ -23,8 +23,12 @@ const titulo = document.querySelector('.tituloScroll');
 typeWrite(titulo);
 
 //Função para abrir página de integrantes
+function abrirBanda(){
+    window.open("banda.html")
+}
+
 function abrirIntegrantes(){
-    window.open("integrantes.html")
+  window.open("integrantes.html")
 }
 
 // Carrossel de resenha
