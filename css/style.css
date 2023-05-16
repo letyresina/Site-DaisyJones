@@ -510,3 +510,50 @@ form #resenha::placeholder{
     line-height: 1.5;
     padding:20px
 }
+
+#tituloInicialAlbum{
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    padding-top:40px
+}
+
+#explicacaoAlbum{
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+}
+
+#explicacaoAlbum img{
+    margin-right: 40px;
+    border-radius: 70px;
+    transition: 500ms linear;
+}
+
+#explicacaoAlbum img:hover{
+    transform: scale(1.1);
+}
+
+#explicacaoAlbum p{
+    font-size:22px;
+    text-align: justify;
+    width: 660px;
+}
+
+#explicacaoAlbum span{
+    font-size:22px;
+    color:var(--cor-destaque-site);
+}
+
+#musicas{
+    display: flex;
+    flex:wrap;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+#musicas #musica{
+    width:40%;
+    margin-right: 20px;
+}
