@@ -557,3 +557,53 @@ form #resenha::placeholder{
     width:40%;
     margin-right: 20px;
 }
+
+#imagemInicial img{
+    transition: 500ms linear;
+}
+
+#imagemInicial img:hover{
+    transform: scale(1.1);
+}
+
+#tituloInicialIntegrantes{
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    padding-top:60px
+}
+
+#integrantes{
+    display: flex;
+    padding-top:40px;
+    padding-bottom:10px;
+    justify-content: center;
+    flex:wrap;
+}
+
+#integrantes #daisyJones, #billyDunne, #eddieRoundtree, #grahamDunne, #karenSirko, #warrenRhodes{
+    margin-right: 30px;
+}
+
+#integrantes img{
+    border-radius: 70px;
+    transition: 500ms linear;
+}
+
+#integrantes img:hover{
+    transform: scale(1.1);
+}
+
+#integrantes p{
+    font-size:20px;
+    color:var(--cor-destaque-site);
+    text-align: center;
+}
+
+#aviso{
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    padding-top:60px;
+    width:500px;
+}
