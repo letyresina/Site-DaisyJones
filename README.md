@@ -3,6 +3,8 @@ Site de Daisy Jones & The Six, que conta um pouco sobre a banda, livro, adaptaç
 ##
 Esse site foi feito como portfólio pessoal, para as aulas de Front-end Design. Utilizou das tecnologias HTML, CSS e Javascript.
 IDE Utilizada: Visual Studio Code
+## Vídeo de funcionamento
+Na pasta "video", tem um vídeo que mostra o site funcionando de forma breve.
 ## Aviso de copyright
 É proibido utilizar o site para venda. O site pode ser utilizado para fins educacionais, entretanto, deve se dar crédito para a desenvolvedora Leticia Resina. 
 
